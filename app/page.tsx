@@ -30,7 +30,7 @@ export default async function Page() {
         />
       </section>
       <section className={styles.news}>
-        <h2 className={styles.newsTitle}>News</h2>
+        <h2 className={styles.newsTitle}>お知らせ</h2>
         <NewsList articles={data.contents} />
         <div className={styles.newsLink}>
           <ButtonLink href="/news">もっとみる</ButtonLink>
@@ -42,9 +42,9 @@ export default async function Page() {
             <h2 className={styles.sectionTitleEn}>Business</h2>
             <p className={styles.sectionTitleJa}>事業内容</p>
             <p className={styles.sectionDescription}>
-              当社は、次世代テクノロジーの研究開発・製造・販売を行う革新的な企業です。
+              当社は、ITテクノロジーを駆使しシステム開発・販売を中心に事業展開を行う企業です。
               <br />
-              AI、ロボット工学、自律システムなど、幅広い分野でのソリューション提供を通じて、社会の進化と未来の創造に貢献します。
+              ホームページ制作や社内システムの開発・保守運用、Excel等の業務効率化など、幅広い分野でのソリューション提供を通じて、社会の進化と未来の創造に貢献します。
             </p>
             <ButtonLink href="/business">もっとみる</ButtonLink>
           </div>
@@ -71,15 +71,15 @@ export default async function Page() {
               <h2 className={styles.sectionTitleEn}>About Us</h2>
               <p className={styles.sectionTitleJa}>私たちについて</p>
               <p className={styles.sectionDescription}>
-                「テクノロジーの力で世界を変える」をミッションに掲げ、日々活動をしています。
+                「テクノロジーの力で日本を支える」をミッションに掲げ、日々活動をしています。
               </p>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>社名</dt>
-                <dd className={styles.infoDescription}>株式会社Simple</dd>
+                <dd className={styles.infoDescription}>合同会社トレイナーズ</dd>
               </dl>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>設立</dt>
-                <dd className={styles.infoDescription}>2023年4月</dd>
+                <dd className={styles.infoDescription}>2024年4月</dd>
               </dl>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>所在地</dt>
@@ -91,11 +91,11 @@ export default async function Page() {
               </dl>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>代表者</dt>
-                <dd className={styles.infoDescription}>鈴木 太郎</dd>
+                <dd className={styles.infoDescription}>大隈 太郎</dd>
               </dl>
               <dl className={styles.info}>
                 <dt className={styles.infoTitle}>資本金</dt>
-                <dd className={styles.infoDescription}>1,000万円</dd>
+                <dd className={styles.infoDescription}>20万円</dd>
               </dl>
             </div>
           </div>

@@ -15,7 +15,7 @@ export default function Menu() {
         <ul className={styles.items}>
           <li>
             <Link href="/news" onClick={close}>
-              ニュース
+              お知らせ
             </Link>
           </li>
           <li>

@@ -7,7 +7,7 @@ export default function Footer() {
       <nav className={styles.nav}>
         <ul className={styles.items}>
           <li className={styles.item}>
-            <Link href="/news">ニュース</Link>
+            <Link href="/news">お知らせ</Link>
           </li>
           <li className={styles.item}>
             <Link href="/members">メンバー</Link>
@@ -20,7 +20,7 @@ export default function Footer() {
           </li>
         </ul>
       </nav>
-      <p>© SIMPLE. All Rights Reserved 2023</p>
+      <p>© トレイナーズ. All Rights Reserved 2023</p>
     </footer>
   );
 }
